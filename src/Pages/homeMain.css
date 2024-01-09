@@ -1,0 +1,224 @@
+.home-container-main,
+.second-home-banner {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.home-banner-text-container {
+  position: absolute;
+  top: 22%;
+  left: 3%;
+  color: white;
+  width: 50%;
+}
+
+.home-banner-text-container-banner2 {
+  position: absolute;
+  color: white;
+  top: 50%;
+  right: 3%;
+}
+
+.primeoffers-btns-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.primeoffersBtnandLinks-banner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primeoffersplanlinks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  color: white;
+  font-size: 18px;
+}
+
+.primeoffersbtn {
+  padding: 14px 20px;
+  background-color: #0f79af;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.home-channels-container {
+  padding: 10px 5%;
+  min-height: 70vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  position: relative;
+}
+
+.channels-text {
+  top: 6%;
+  left: 4%;
+
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.channels-text h1 {
+  font-size: 45px;
+}
+.channels-text p {
+  font-size: 24px;
+}
+
+.channels-list-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.channels-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.channel {
+  display: flex;
+  flex: 1 32%;
+  max-width: 256px;
+  padding: 0;
+  margin: 3px;
+  transition: box-shadow 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.channel img {
+  width: 100%;
+  height: 100%;
+}
+
+.channel img:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0px 1px 6px 4px #333;
+  z-index: 10;
+  transition: opacity 0.3s;
+}
+
+.firestick-text {
+  color: white;
+  padding: 50px;
+  position: absolute;
+}
+
+.family-friendly {
+  text-align: justify;
+  width: 47%;
+}
+
+/* modal css */
+.ant-btn-default {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .home-banner-text-container {
+    width: 97%;
+    position: relative;
+    text-align: center;
+  }
+
+  .home-banner-text-container h1 {
+    margin: 0px;
+  }
+  .banner1-text h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .primeoffersbtn {
+    padding: 5px 5px;
+    background-color: #0f79af;
+    color: white;
+    font-size: 13px;
+    border: none;
+  }
+  .home-banner-text-container-banner2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .home-banner-text-container-banner2 h2 {
+    font-size: 15px;
+    padding-left: 19px;
+  }
+  .home-banner-text-container-banner2 h1 {
+    font-size: 26px;
+    margin: 0px;
+  }
+
+  .primeoffersplanlinks {
+    width: 100%;
+  }
+
+  .home-container-main,
+  .second-home-banner {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .home-channels-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .channels-text,
+  .channels-list-container {
+    max-width: 97%;
+    text-align: justify;
+  }
+  .firestick-text {
+    position: relative;
+  }
+  .primeoffersBtnandLinks {
+    text-align: center;
+  }
+  .firestick-text {
+    padding: 0px;
+  }
+  .firestick-text h1 {
+    padding: 0;
+    font-size: 24px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .firestick-text p {
+    font-size: 18px !important;
+    padding: 0 10px;
+    text-align: justify;
+  }
+  .family-friendly {
+    width: 97%;
+  }
+
+  .channels-text h1 {
+    font-size: 26px;
+  }
+
+  .channels-text p {
+    font-size: 17px;
+  }
+
+  .channels-list-container {
+    padding: 0;
+  }
+}

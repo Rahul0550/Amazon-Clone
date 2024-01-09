@@ -1,0 +1,52 @@
+.moods-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.modal-main-div {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.modal-main-div > .ant-btn-primary {
+  position: absolute;
+  display: flex;
+  color: #fff;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 20px;
+  background: rgb(113 113 119);
+}
+
+.modal-main-div > .ant-btn-primary:hover {
+  background-color: black !important;
+}
+
+.noThanks-mood-btn {
+  color: rgb(251, 249, 249) !important;
+  background-color: rgb(113 113 119);
+}
+
+.noThanks-mood-btn:hover {
+  background-color: black !important;
+}
+
+.moods-imgs {
+  height: 75px;
+  width: 75px;
+}
+
+@media (max-width: 415px) {
+  .moods-main {
+    flex-direction: column !important;
+  }
+}
